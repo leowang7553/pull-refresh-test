@@ -131,7 +131,7 @@ var slide_ = function(option) {
 
 /**
  * 下拉加载更多
- * @param  {object} option - config options
+ * @param  {object} option - config options (container and function)
  */
  var slideBottom = function (option) {
  	if (!option.container) { console.log('no container dom') }
